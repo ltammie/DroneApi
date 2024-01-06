@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  prometheus:
+    image: prom/prometheus:v2.44.0
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus:/etc/prometheus
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    volumes:
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+      - ./grafana/provisioning/dashboards/dashboard.yml:/etc/grafana/provisioning/dashboards/main.yml
+      - ./grafana/provisioning/dashboards:/var/lib/grafana/dashboards

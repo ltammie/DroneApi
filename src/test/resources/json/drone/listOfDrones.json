@@ -1,0 +1,26 @@
+[
+  {
+    "id": 10,
+    "serialNumber": "serial-number-10",
+    "model": "Lightweight",
+    "weightLimit": 200,
+    "battery": 10.1,
+    "state": "IDLE"
+  },
+  {
+    "id": 11,
+    "serialNumber": "serial-number-11",
+    "model": "Cruiserweight",
+    "weightLimit": 400,
+    "battery": 100.0,
+    "state": "LOADING"
+  },
+  {
+    "id": 12,
+    "serialNumber": "serial-number-12",
+    "model": "Heavyweight",
+    "weightLimit": 500,
+    "battery": 5.8,
+    "state": "RETURNING"
+  }
+]

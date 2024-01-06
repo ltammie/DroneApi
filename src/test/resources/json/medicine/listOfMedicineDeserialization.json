@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "a-0",
+    "weight": 50,
+    "code": "A_0",
+    "image": "base64String of image A"
+  },
+  {
+    "id": 2,
+    "name": "b-0",
+    "weight": 20,
+    "code": "B_0",
+    "image": "base64String of image B"
+  }
+]

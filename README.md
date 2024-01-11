@@ -15,12 +15,11 @@ This is a drone REST API application. See below how to compile and run it
 
 ### You can open swagger ui to send request via friendly interface
 
+- http://localhost:8080/drone-management/swagger.html
+
 ### Optional
 
 #### You can use following commands to set up prometheus and grafana to monitor drone application
-
-- http://localhost:8080/drone-management/swagger.html
-
 #### To start prometheus and grafana use:
 
 - docker compose -f monitoring/docker-compose.yml up
